@@ -20,7 +20,10 @@ int main()
   }   
   if(ty[0]==0 && ty[1]==0){    
     printf("0 0");  
-  }     
+  }
+  else if(ty[0]!=0 && ty[1] == 0){ 
+    printf("0");   
+  }
   else{   
     for(k = 0;k < i;k++){ 
       if(k%2 != 1)  
